@@ -1,0 +1,51 @@
+{
+  "name": "ReduxExample",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "modulePathIgnorePatterns": [
+      "/node_modules/.*/react-native/",
+      "/node_modules/.*/react/"
+    ],
+    "transformIgnorePatterns": [
+      "/node_modules/(?!react-native|react-navigation)/"
+    ]
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.10",
+    "apollo-client": "^2.2.6",
+    "apollo-link": "^1.2.1",
+    "apollo-link-error": "^1.0.7",
+    "apollo-link-http": "^1.5.3",
+    "apollo-link-logger": "^1.2.0",
+    "expo": "^25.0.0",
+    "graphql": "^0.13.1",
+    "graphql-tag": "^2.8.0",
+    "immutability-helper": "^2.6.6",
+    "prop-types": "^15.5.10",
+    "react": "16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-native": "^0.52.0",
+    "react-native-elements": "^0.19.0",
+    "react-navigation": "^1.5.2",
+    "react-navigation-redux-helpers": "^1.0.3",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^22.4.1",
+    "jest": "^22.1.3",
+    "jest-expo": "^25.1.0",
+    "react-native-scripts": "^1.3.1",
+    "react-test-renderer": "16.0.0"
+  }
+}
